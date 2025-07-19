@@ -1,0 +1,141 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Antler Hub premium",
+   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   LoadingTitle = "Loading..",
+   LoadingSubtitle = "by antlar",
+   ShowText = "close antler hub", -- for mobile users to unhide rayfield, change if you'd like
+   Theme = "Amethyst", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+
+   ToggleUIKeybind = "K", -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Antler Hub premium"
+   },
+
+   Discord = {
+      Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Key System",
+      Subtitle = "Key System",
+      Note = "Join the Discord Server https://discord.gg/HvjbhkruC8", -- Use this to tell the user how to get a key
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"164cgh-824Sow-MSp836", "ONLYTESTINGHUB" , "HDj915-kzE821-9K38r", "734ndt-ueh726-KwQ947"}
+   }
+})
+
+local Tab = Window:CreateTab("roblox shooting games", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Rivals, arsenal more",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/gcUsjvks"))()
+   end,
+})
+
+local Tab = Window:CreateTab("Ink Game", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Ink Game",
+   Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/inkgame.lua", true))()
+   end,
+})
+
+local Tab = Window:CreateTab("BedWars", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "BedWars",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/void2realyt/RainWare-V6/refs/heads/main/init.luau"))()
+   end,
+})
+
+local Tab = Window:CreateTab("kat", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "kat",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scripter1cursed1rade/BelugaWare-1.4/main/belugaware.lua"))()
+   end,
+})
+
+local Tab = Window:CreateTab("Tower Of Hell", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Tower Of Hell",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BeeTech02/-Tower-Of-Hell/refs/heads/main/CheatBypass.lua"))()
+   end,
+})
+
+--the key is "734bvg-164cgh-824laz" -- or ONLYTESTINGHUB
+
+local Tab = Window:CreateTab("Fair Thingy", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Fair Thingy",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+   end,
+})
+
+local Tab = Window:CreateTab("Murder Mystery 2", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Yarhm Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+   end,
+})
+
+local Tab = Window:CreateTab("Steal A Brainrot", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Steal A Brainrot(Down RN)",
+   Callback = function()
+print("down rn")
+   end,
+})
+
+Rayfield:Notify({
+   Title = "Script Patched",
+   Content = "If any Script Patched, DM the Owner(Antlar) on the Discord Server",
+   Duration = 7.5,
+   Image = 4483362458,
+})
+
+local Tab = Window:CreateTab("Starving Arts", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Starving Arts",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Utilities/main/Closed/StarvingArtist.lua"))()
+   end,
+})
+
+--Working Codes = "164cgh-824Sow-MSp836", "ONLYTESTINGHUB" , "HDj915-kzE821-9K38r" "734ndt-ueh726-KwQ947"
+--these codes are usable when premium is bought - except the "ONLYTESTINGHUB" because it is used for Script Testers ONLY!!!
+--If we caught you using Script Testers Key, you will be PERMANENTLY BANNED from the hub and the Discord Server!!! (If you are a Script Tester you will not be banned")
+
+local Tab = Window:CreateTab("Owl Hub", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Owl Hub 30+ Games(probably patched)",
+   Callback = function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/OwlHub.txt"))()
+   end,
+})
