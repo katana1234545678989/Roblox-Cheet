@@ -4,8 +4,8 @@ local Window = Rayfield:CreateWindow({
    Name = "Antler Hub premium",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Loading..",
-   LoadingSubtitle = "by antlar",
-   ShowText = "close antler hub", -- for mobile users to unhide rayfield, change if you'd like
+   LoadingSubtitle = "by Antlar",
+   ShowText = "Open Antler Hub", -- for mobile users to unhide rayfield, change if you'd like
    Theme = "Amethyst", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    ToggleUIKeybind = "K", -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
@@ -69,7 +69,7 @@ local Tab = Window:CreateTab("kat", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "kat",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/scripter1cursed1rade/BelugaWare-1.4/main/belugaware.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scripter1cursed1rade/BelugaWare-1.4/main/belugaware.lua"))()
    end,
 })
 
@@ -78,18 +78,16 @@ local Tab = Window:CreateTab("Tower Of Hell", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "Tower Of Hell",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BeeTech02/-Tower-Of-Hell/refs/heads/main/CheatBypass.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BeeTech02/-Tower-Of-Hell/refs/heads/main/CheatBypass.lua"))()
    end,
 })
 
---the key is "734bvg-164cgh-824laz" -- or ONLYTESTINGHUB
-
-local Tab = Window:CreateTab("Fair Thingy", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Infinite Yield", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
-   Name = "Fair Thingy",
+   Name = "Infinite Yield",
    Callback = function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
    end,
 })
 
@@ -98,21 +96,21 @@ local Tab = Window:CreateTab("Murder Mystery 2", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "Yarhm Hub",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
    end,
 })
 
 local Tab = Window:CreateTab("Steal A Brainrot", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
-   Name = "Steal A Brainrot(Down RN)",
+   Name = "Steal A Brainrot( Probably Down RN)",
    Callback = function()
-print("down rn")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/Steal-a-Brianrot/refs/heads/main/ArbixHubBEST.lua"))()
    end,
 })
 
 Rayfield:Notify({
-   Title = "Script Patched",
+   Title = "Script Patching",
    Content = "If any Script Patched, DM the Owner(Antlar) on the Discord Server",
    Duration = 7.5,
    Image = 4483362458,
@@ -139,3 +137,16 @@ local Button = Tab:CreateButton({
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/OwlHub.txt"))()
    end,
 })
+
+local Tab = Window:CreateTab("Pop It Trading", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Pop It Trading",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Sponge123456789/Sponge/main/Really%20op%20script%20pop%20it%20trading"))()
+   end,
+})
+
+--Working Codes = "164cgh-824Sow-MSp836", "ONLYTESTINGHUB" , "HDj915-kzE821-9K38r", "734ndt-ueh726-KwQ947" ,  "OwnerAntler"
+--these codes are usable when premium is bought - except the "ONLYTESTINGHUB" because it is used for Script Testers ONLY!!!
+--If we caught you using Script Testers Key, you will be PERMANENTLY BANNED from the hub and the Discord Server!!! (If you are a Script Tester you will not be banned")
